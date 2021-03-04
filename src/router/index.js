@@ -7,12 +7,12 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/Weathersite-project/',
     name: 'Home',
     component: Home
   },
   {
-    path: '/recent-search',
+    path: '/Weathersite-project/recent-search',
     name: 'recent-search',
     component: Recentsearch
     // route level code-splitting
