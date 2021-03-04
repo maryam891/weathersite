@@ -11,8 +11,11 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
-
+navigator.serviceWorker.register('/service-worker.js', {
+  scope: '/app'
+});
 new Vue({
+
   router,
   store,
   created() {
