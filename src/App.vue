@@ -42,7 +42,7 @@
 }
 
 .home {
-  background-image: url("sky.jpg");
+  background-image: url("/Weathersite-project/sky.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
