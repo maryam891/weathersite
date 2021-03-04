@@ -2,11 +2,16 @@
   <div id="app">
     <div id="nav">
       <b-navbar toggleable="lg" type="dark" class="navbar">
-        <b-navbar-brand href="/">Home</b-navbar-brand>
-        <b-navbar-brand href="/recent-search">Recent search</b-navbar-brand>
+        <b-navbar-brand href="/Weathersite-project/">Home</b-navbar-brand>
+        <b-navbar-brand href="/Weathersite-project/recent-search"
+          >Recent search</b-navbar-brand
+        >
         <div class="header">
           <h1>
-            <img src="/img/icons/weather.png" width="40px" />
+            <img
+              src="/Weathersite-project/img/icons/weather.png"
+              width="40px"
+            />
             WeatherNow
           </h1>
         </div>
