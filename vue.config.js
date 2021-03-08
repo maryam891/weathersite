@@ -1,6 +1,6 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Weathersite-project/'
+    ? '/Weathersite-project/#/'
     : '/',
     pwa: {
         background_color: 'lightblue',
