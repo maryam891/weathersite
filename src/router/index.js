@@ -24,7 +24,8 @@ const routes = [
 
 const router = new VueRouter({
   routes,
-  mode: 'hash'
+  mode: 'hash',
+  base: 'Weathersite-project'
 })
 
 export default router
