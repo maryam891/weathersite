@@ -12,7 +12,7 @@ Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
 navigator.serviceWorker.register('/Weathersite-project/service-worker.js', {
-  scope: '/Weathersite-project/'
+  scope: '/Weathersite-project/app'
 });
 new Vue({
 
