@@ -3,7 +3,7 @@
     <div id="nav">
       <b-navbar toggleable="lg" type="dark" class="navbar">
         <b-navbar-brand href="/Weathersite-project/">Home</b-navbar-brand>
-        <b-navbar-brand href="/Weathersite-project/recent-search"
+        <b-navbar-brand href="/Weathersite-project/#/recent-search"
           >Recent search</b-navbar-brand
         >
         <div class="header">
