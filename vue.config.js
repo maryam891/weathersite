@@ -1,18 +1,21 @@
-module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/Weathersite-project/'
-    : '/',
-    pwa: {
-        background_color: 'lightblue',
+module.exports = { 
+   pwa: {
         manifestOptions: {
+        background_color: 'lightblue',
+       },
 
             name: 'weathersite',
             themeColor: 'blue',
-
-
-        },
-
-
-
-    }
+WorkBoxOptions:{
+    runtimeCaching:[
+ {
+ handler:'NetworkFirst',
+ options:{
+ networkTimeoutSeconds:5
+ },
+ urlPattern:'https://weatherapi-com.p.rapidapi.com/forecast.json?q='
+ }
+     ]
+ }
+     }
 }
